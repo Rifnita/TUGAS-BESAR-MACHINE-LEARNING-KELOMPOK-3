@@ -64,23 +64,6 @@ Digunakan untuk menguji hasil clustering menggunakan supervised learning dan eva
 
 ---
 
-## 🚀 **Langkah-langkah Menjalankan Proyek**
-
-### Prasyarat:
-- Python 3.7+
-- Jupyter Notebook / VSCode
-- Dataset CSV (`stroke-data.csv`)
-
-### Instalasi dependensi:
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn
-```
-
-### Folder penting:
-- 📂 `notebooks/` – berisi eksperimen clustering
-- 📂 `data/` – letakkan dataset di sini (`stroke-data.csv`)
-- 📂 `visualisasi/` – menyimpan output gambar PCA dan confusion matrix
-
 ### Tahapan Eksperimen:
 1. Pra-pemrosesan: Imputasi nilai kosong, encoding variabel kategorikal, dan normalisasi.
 2. Penerapan K-Means dan DBSCAN pada data asli.
